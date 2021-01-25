@@ -1,0 +1,21 @@
+[Unit]
+Description=SonarQube service
+After=syslog.target network.target
+
+[Service]
+Type=simple
+# This username must match the owner of the /opt/sonarqube directory
+User=sonar
+Group=sonar
+PermissionsStartOnly=true
+WorkingDirectory=/opt/sonarqube/bin/linux-x86-64
+ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh console
+StandardOutput=syslog
+LimitNOFILE=131072
+LimitNPROC=8192
+TimeoutStartSec=5
+Restart=always
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
