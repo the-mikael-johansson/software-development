@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalApp", "TerminalApp\TerminalApp.csproj", "{CBF25DAB-A7CA-4064-9131-9E5F4C4046F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalApp.Tests", "TerminalApp.Tests\TerminalApp.Tests.csproj", "{4274DDF3-A2ED-4F4F-888E-D0FEA018BEA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF25DAB-A7CA-4064-9131-9E5F4C4046F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF25DAB-A7CA-4064-9131-9E5F4C4046F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF25DAB-A7CA-4064-9131-9E5F4C4046F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF25DAB-A7CA-4064-9131-9E5F4C4046F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4274DDF3-A2ED-4F4F-888E-D0FEA018BEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4274DDF3-A2ED-4F4F-888E-D0FEA018BEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4274DDF3-A2ED-4F4F-888E-D0FEA018BEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4274DDF3-A2ED-4F4F-888E-D0FEA018BEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D47550D0-B0DF-46F9-8921-A8C4EE1F8EB6}
+	EndGlobalSection
+EndGlobal
